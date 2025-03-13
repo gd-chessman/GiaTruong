@@ -1,8 +1,8 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
-import '../styles/globals.scss';
+import '../styles/global.scss';
 
-const MyApp = ({ Component, pageProps }: AppProps) => {
+const MyApp = ({ Component, pageProps }) => {
     const appName = process.env.NEXT_PUBLIC_APP_NAME || 'Default App Name';
     return (
         <>
